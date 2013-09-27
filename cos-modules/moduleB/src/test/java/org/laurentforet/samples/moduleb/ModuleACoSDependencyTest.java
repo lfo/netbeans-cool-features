@@ -1,9 +1,9 @@
 package org.laurentforet.samples.moduleb;
 
 
-import junit.framework.Assert;
-import org.junit.Test;
 import org.laurentforet.samples.module.ServiceA;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 /**
  * Unit test for simple App.
@@ -12,6 +12,6 @@ public class ModuleACoSDependencyTest  {
 
     @Test
     public void simpleTest() {
-        Assert.assertEquals("serviceA", new ServiceA().getHello());
+        Assert.assertEquals(new ServiceA().getHello(), "serviceA");
     }
 }
