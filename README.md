@@ -13,6 +13,7 @@ netbeans-cool-features
    * Get the source 
    
         git clone git@github.com:lfo/netbeans-cool-features.git
+        git checkout feature/cos-nb74
      
      with netbeans, go to the menu team/git/clone...
 
