@@ -18,7 +18,7 @@ netbeans-cool-features
 
    * Open in netbeans the cos-modules pom project and its required project moduleA and moduleB
    * Make a primary build
-   * Run the ModuleACoSDependencyTest (right click on the test)
+   * Run the ModuleACoSDependencyTest (right click on the test), it should pass.
    * Open ServiceA.java in the moduleA in order to make the previous test failed and save the file.
    * Open ModuleACoSDependencyTest.java right click on the test method and choose "Run focus test method"
    * 
